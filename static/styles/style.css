@@ -1,0 +1,90 @@
+.subscribe {
+	background-color: rgb(177, 0, 0);
+	color: white;
+	padding-block: 10px;
+	padding-inline: 16px;
+	border-color: rgb(95, 0, 0);
+	font-weight: bold;
+	border-radius: 3px;
+	margin-right: 10px;
+	cursor: pointer;
+	transition: opacity 0.15s;
+}
+
+.subscribe:hover {
+	opacity: 0.8;
+}
+
+.subscribe:active {
+	opacity: 0.5;
+}
+
+.join {
+	background-color: white;
+	color: blue;
+	padding-block: 10px;
+	padding-inline: 16px;
+	border-color: blue;
+	border-width: 2px;
+	border-radius: 3px;
+	font-weight: bold;
+	margin-right: 10px;
+	cursor: pointer;
+	transition: background-color 0.15s, color 0.15s;
+}
+
+.join:hover {
+	background-color: rgb(1, 71, 191);
+	color: white;
+}
+
+.join:active {
+	opacity: 0.7;
+}
+
+.discord {
+	background-color: rgb(91, 106, 245);
+	padding: 12px;
+	border: none;
+	border-radius: 30px;
+	color: white;
+	font-weight: bold;
+	cursor: pointer;
+	transition: box-shadow 0.15s;
+}
+
+.discord:hover {
+	background-color: darkslateblue;
+	box-shadow: 6px 9px 12px rgba(0, 0, 0, 0.6);
+}
+
+.discord:active {
+	opacity: 0.8;
+}
+
+.stretch {
+	background-color: green;
+	color: white;
+	border: none;
+	padding: 5px;
+	margin-block: 30px;
+	transition: padding 0.5s;
+}
+
+.stretch:hover {
+	padding: 15px;
+}
+
+.shadow {
+	margin-top: 10px;
+	background-color: springgreen;
+	border: none;
+	font-weight: bold;
+	padding: 10px;
+	box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.7);
+}
+
+.shadow:active {
+	margin: 5px;
+	box-shadow: none;
+}
